@@ -1,0 +1,15 @@
+package master.thesis.raincloudsystem.communicatr.model.enums
+
+enum class MessageType {
+    NODE_DISCOVERY,
+    RANDOM_WALKER_REQUEST,
+    RANDOM_WALKER_RESPONSE,
+    ACO_REQUEST,
+    ACO_RESPONSE,
+    PENDING_AVOID_REQUEST,
+    PENDING_AVOID_RESPONSE,
+    GOSSIPS_DISCOVERY_REQUEST,
+    GOSSIPS_DISCOVERY_RESPONSE,
+    GOSSIPS_REQUEST,
+    GOSSIPS_RESPONSE
+}

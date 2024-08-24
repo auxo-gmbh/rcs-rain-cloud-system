@@ -1,0 +1,32 @@
+type(scope?): subject
+
+<commit body>
+
+# --- COMMIT END ---
+# Example:
+# feat(server): Implement generating secret key
+#
+# Now, client is generating a new secret key for the handshake (see issue #21).
+# This is needed because the communication between server and client will be 
+# encrypted with a secret key that is randomly created for every new session. 
+#
+# --------------------
+# Tag can be 
+#    feat     (new feature)
+#    fix      (bug fix)
+#    refactor (refactoring code)
+#    style    (formatting, missing semi colons, etc; no code change)
+#    chore    (nomen est omen)
+#    docs     (changes to documentation)
+#    test     (adding or refactoring tests; no production code change)
+#    version  (version bump/new release; no production code change)
+#    perf     (improving performance)
+#    revert   (revert changes)
+#    ci       (changes to continuous integration)
+#
+# --------------------
+# Remember to:
+#   * Use the imperative mood in the subject line
+#   * Use the body to explain what and why vs. how
+#   * Can use multiple lines with "-" or "*" for bullet points in body
+# --------------------
